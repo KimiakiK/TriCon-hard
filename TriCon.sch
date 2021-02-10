@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Tri Con"
-Date "2020-04-26"
-Rev "1.0"
+Date "2020-06-16"
+Rev "1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -328,10 +328,6 @@ Wire Wire Line
 Wire Wire Line
 	3450 3550 3750 3550
 Wire Wire Line
-	3750 3550 3750 2500
-Wire Wire Line
-	5100 2500 5100 2800
-Wire Wire Line
 	3450 3650 3850 3650
 Wire Wire Line
 	3850 3650 3850 3250
@@ -473,17 +469,11 @@ Wire Wire Line
 Wire Wire Line
 	6750 3650 6950 3650
 Wire Wire Line
-	3750 2500 5100 2500
-Wire Wire Line
 	3450 3150 3650 3150
 Wire Wire Line
-	6550 2600 5200 2600
+	5100 2600 5100 2800
 Wire Wire Line
-	5200 2600 5200 2800
-Wire Wire Line
-	5300 2500 5300 2800
-Wire Wire Line
-	5300 2500 6550 2500
+	5200 2500 5200 2800
 $Comp
 L power:+3V0 #PWR05
 U 1 1 5EAD4146
@@ -604,4 +594,14 @@ Wire Wire Line
 	9200 1950 8750 1950
 Connection ~ 8750 1650
 Connection ~ 8750 1950
+Wire Wire Line
+	3750 2400 3750 3550
+Wire Wire Line
+	5100 2600 6550 2600
+Wire Wire Line
+	5200 2500 6550 2500
+Wire Wire Line
+	5300 2400 5300 2800
+Wire Wire Line
+	3750 2400 5300 2400
 $EndSCHEMATC
